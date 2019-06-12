@@ -1,0 +1,14 @@
+<mat-card>
+    <mat-card-header>
+      <mat-card-title>Post your comment </mat-card-title>
+    </mat-card-header>
+    <mat-card-content>
+      <form class="example-form">
+        
+        <mat-form-field style="width:100%">
+          <textarea matInput placeholder="post a comment" name="msg" [(ngModel)]="postMsg"></textarea>
+        </mat-form-field>
+        <button mat-raised-button color="primary" (click)="postdata()"> post</button>
+      </form>
+    </mat-card-content>
+  </mat-card>
